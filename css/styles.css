@@ -86,8 +86,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 24px;
-  margin-bottom: 25px; */
 }
 
 .header-nav {
@@ -164,9 +162,7 @@ img {
 
 .contacts {
   display: flex;
-  /* font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em; */
+
   color: var(--tertiary-text-color);
 }
 
@@ -180,16 +176,20 @@ img {
 }
 
 .contacts-item-header {
-  /* color: var(--secondary-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em; */
 }
 
 .contacts-item-header:not(:first-child) {
   margin-left: 50px;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.smartphone-icon {
+  width: 10px;
+  height: 16px;
 }
 
 .contacts-link {
@@ -258,9 +258,6 @@ img {
 
 .benefits-list {
   width: 270px;
-  /* font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em; */
 }
 
 .benefits-list:not(:last-child) {
@@ -340,11 +337,15 @@ img {
   padding: 30px 0;
   text-align: center;
 }
+
+.social-icon {
+  display: flex;
+}
+
 /* WebStudio's projects */
 
 .filter {
   display: flex;
-  /* margin-top: 94px; */
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -361,9 +362,6 @@ img {
   cursor: pointer;
   border-radius: 4px;
   padding: 6px 22px;
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border: 0; */
 }
 
 .filter-item:not(:last-child) {
@@ -398,7 +396,6 @@ img {
 
   color: var(--primary-text-color);
 
-  /* margin: 20px 0px 4px 0px; */
   margin-bottom: 4px;
 }
 
@@ -412,6 +409,33 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+}
+
+/* Clients */
+
+.clients-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.button-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.button-icon:hover,
+.button-icon:focus {
+  border-color: var(--accent-color);
 }
 
 /* footer */
