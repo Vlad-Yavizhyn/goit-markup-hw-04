@@ -185,11 +185,13 @@ img {
 .mail-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 
 .smartphone-icon {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
 
 .contacts-link {
@@ -198,6 +200,8 @@ img {
   font-size: 14px;
   line-height: 1.4px;
   letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
 }
 
 .contacts-link:hover,
@@ -371,6 +375,11 @@ img {
   margin-right: 10px;
 }
 
+.icon-svg:hover,
+.icon-svg:focus {
+  color: black;
+}
+
 /* WebStudio's projects */
 
 .filter {
@@ -460,6 +469,9 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button-icon:hover,
@@ -520,11 +532,11 @@ img {
 }
 
 .join-box {
-  display: flex;
   margin-left: 70px;
 }
 
 .join-text {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
