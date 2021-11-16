@@ -340,16 +340,18 @@ img {
 
 .social-net {
   display: flex;
-  width: 206px;
+  justify-content: center;
+  width: 270px;
   margin-top: 16px;
 }
 
 .social-icon {
-  width: 20px;
-  height: 20px;
 }
 
 .social-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
 }
