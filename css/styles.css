@@ -338,8 +338,24 @@ img {
   text-align: center;
 }
 
-.social-icon {
+.social-net {
   display: flex;
+  width: 206px;
+  margin-top: 16px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-thumb {
+  width: 44px;
+  height: 44px;
+}
+
+.social-thumb:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* WebStudio's projects */
