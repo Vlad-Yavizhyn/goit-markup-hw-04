@@ -264,6 +264,20 @@ img {
   margin-right: 30px;
 }
 
+.benefits-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.benefits-icon {
+}
+
 .benefits-description {
   font-weight: bold;
   font-size: 14px;
@@ -343,9 +357,6 @@ img {
   justify-content: center;
   width: 270px;
   margin-top: 16px;
-}
-
-.social-icon {
 }
 
 .social-thumb {
@@ -497,4 +508,31 @@ img {
 .contacts-link-footer:hover,
 .contacts-link-footer:focus {
   color: var(--accent-color);
+}
+
+.footer-block {
+  display: block;
+}
+
+.footer-box {
+  display: flex;
+  align-items: baseline;
+}
+
+.join-box {
+  display: flex;
+  margin-left: 70px;
+}
+
+.join-text {
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-social-box {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 }
