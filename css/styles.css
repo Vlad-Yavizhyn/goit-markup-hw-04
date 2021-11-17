@@ -367,12 +367,11 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
-}
+ }
 
 .social-thumb:not(:last-child) {
-  margin-right: 10px;
+margin-right: 10px;
 }
-
 
 /* WebStudio's projects */
 
@@ -473,6 +472,15 @@ img {
   border-color: var(--accent-color);
 }
 
+.client-logo {
+  fill: #AFB1B8;
+}
+
+.client-logo:hover,
+ .client-logo:focus {
+   fill: var(--accent-color);
+ }
+
 /* footer */
 
 .footer {
@@ -543,6 +551,15 @@ img {
   border-radius: 50%;
 }
 
+.footer-social-box:hover, 
+.footer-social-box:focus {
+background-color: var(--accent-color);
+}
+
+.footer-social-box:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-icon {
-  fill: #ffffff;
+  fill: #FFFFFF;
 }
