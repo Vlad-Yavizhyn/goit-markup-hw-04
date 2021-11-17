@@ -175,8 +175,6 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contacts-item-header {
-}
 
 .contacts-item-header:not(:first-child) {
   margin-left: 50px;
@@ -375,10 +373,6 @@ img {
   margin-right: 10px;
 }
 
-.icon-svg:hover,
-.icon-svg:focus {
-  color: black;
-}
 
 /* WebStudio's projects */
 
@@ -547,4 +541,8 @@ img {
 .footer-social-box {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.social-icon {
+  fill: #ffffff;
 }
