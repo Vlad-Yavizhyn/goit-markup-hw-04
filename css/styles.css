@@ -373,6 +373,25 @@ img {
 margin-right: 10px;
 }
 
+.team-social-link {
+display: flex;
+fill: #AFB1B8;
+border-radius: 50%;
+
+}
+
+.team-social-link:hover, 
+.team-social-link:focus {
+fill: #FFFFFF;
+
+
+
+}
+
+.team-social-icon {
+  fill: #AFB1B8;
+}
+
 /* WebStudio's projects */
 
 .filter {
@@ -454,7 +473,7 @@ margin-right: 10px;
 .actions {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .button-icon {
@@ -540,7 +559,7 @@ margin-right: 10px;
 .join-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
