@@ -184,12 +184,14 @@ img {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: #757575;
 }
 
 .smartphone-icon {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
 }
 
 .contacts-link {
@@ -205,6 +207,16 @@ img {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+
+.mail-icon:hover 
+.mail-icon:focus {
+  fill: var(--accent-color);
+}
+
+.smartphone-icon:hover 
+.smartphone-icon:focus {
+  fill: var(--accent-color);
 }
 
 /* hero */
@@ -367,11 +379,8 @@ img {
   justify-content: center;
   width: 44px;
   height: 44px;
+  margin-right: 10px;
  }
-
-.social-thumb:not(:last-child) {
-margin-right: 10px;
-}
 
 .team-social-link {
 display: flex;
@@ -391,6 +400,7 @@ fill: #FFFFFF;
 .team-social-icon {
   fill: #AFB1B8;
 }
+
 
 /* WebStudio's projects */
 
@@ -484,6 +494,7 @@ fill: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: #AFB1B8;
 }
 
 .button-icon:hover,
@@ -568,6 +579,8 @@ fill: #FFFFFF;
 .footer-social-box {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .footer-social-box:hover, 
@@ -575,10 +588,7 @@ fill: #FFFFFF;
 background-color: var(--accent-color);
 }
 
-.footer-social-box:not(:last-child) {
-  margin-right: 10px;
-}
-
 .social-icon {
   fill: #FFFFFF;
+  display: flex;
 }
