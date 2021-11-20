@@ -454,7 +454,7 @@ background-color: var(--accent-color);
 }
 
 .project-link {
-
+display: block;
 }
 
 .project-link:focus, 
