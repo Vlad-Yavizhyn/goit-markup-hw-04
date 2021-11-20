@@ -453,6 +453,9 @@ background-color: var(--accent-color);
   margin: -15px;
 }
 
+.project-link {
+
+}
 
 .project-link:focus, 
 .project-link:hover {
