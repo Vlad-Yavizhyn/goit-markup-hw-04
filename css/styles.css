@@ -162,7 +162,7 @@ img {
 
 .contacts {
   display: flex;
-align-items: center;
+  align-items: center;
   color: var(--tertiary-text-color);
 }
 
